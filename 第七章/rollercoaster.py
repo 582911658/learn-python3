@@ -1,7 +1,6 @@
 height = input('How tall are you,in inches？')
-height = int (height)
+height = int(height)
 if height >= 36:
     print('\nYou\'re tall enough to ride.')
-else :
+else:
     print('\nYou\'re tall enough to ride!\n')
-    
