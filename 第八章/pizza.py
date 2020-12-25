@@ -1,9 +1,8 @@
-def make_pizza(*toppings):
+def make_pizza(size, * toppings):
     """
-    打印顾客所点的所有原料
+    概述要制作的pizza
     """
-    print(toppings)
-
-
-make_pizza('pepperoni')
-make_pizza('mushroom', 'green peppers', 'extra cheese')
+    print('\nMaking a '+str(size) +
+          ' pizza with the following toppings:')
+    for topping in toppings:
+        print('-'+topping)
