@@ -26,5 +26,5 @@ class Dog():
 my_dog = Dog('willie', 6)
 my_dog.sit()
 my_dog.roll_over()
-# print('My dog name is ' + my_dog.name.title()+'.')
-# print('My dog is '+str(my_dog.age) + ' years old!')
+print('My dog name is ' + my_dog.name.title()+'.')
+print('My dog is '+str(my_dog.age) + ' years old!')
