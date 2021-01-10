@@ -1,4 +1,5 @@
 {
     "python.linting.flake8Enabled": true,
-    "remote.SSH.showLoginTerminal": true
+    "remote.SSH.showLoginTerminal": true,
+    "python.languageServer": "Microsoft"
 }
