@@ -1,5 +1,10 @@
 {
     "python.linting.flake8Enabled": true,
     "remote.SSH.showLoginTerminal": true,
-    "python.languageServer": "Microsoft"
+    "python.languageServer": "Microsoft",
+    "cSpell.language": "en,en-US,en-GB",
+    "cSpell.enableFiletypes": [
+        "code-runner-output",
+        "log"
+    ]
 }
