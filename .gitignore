@@ -131,8 +131,5 @@ dmypy.json
 # vscode 
 .vscode/
 
-# 练习答案
-练习答案/
-
-# 《Python编程》源代码文件
-《Python编程》源代码文件/
+# 习题源码及答案
+习题源码及答案/
