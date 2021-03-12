@@ -8,7 +8,8 @@ class Ship():
         self.screen = screen
 
         # 加载飞船图像，并获得其外接矩形
-        self.image = pygame.image.load('alien_invasion\images\ship.bmp')
+        self.image = pygame.image.load(
+            'D:\\程序\\Python3\\learn-python3\\alien_invasion\\images\\ship.bmp')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
